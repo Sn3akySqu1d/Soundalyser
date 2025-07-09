@@ -5,7 +5,7 @@ description: "Soundalyser is a portable sound monitoring device"
 created_at: "2025-07-07"
 ---
 
-Total time spent: X hours
+Total time spent: ~18 hours
 
 # Day 1 (7/7) ~6 hours
 Firstly I came up with the idea of the project, my idea was to make a small, portable noise detector.
@@ -26,3 +26,6 @@ I attempted to render the project in blender as I will be printing it in a red c
 ![alt text](Images/image-5.png)
 
 The final step in the design was writing the firmware which took ages. This was difficult to write as there is not yet any physical hardware to test it on and there is definetly at least a few undetected bugs which will be fixed once the hardware arrives. I started by writing base code that read data from each of the sensors and played a sound on the buzzer at regualr intervals. I then implemented the multi-screen system for which i had to do a lot of research online about the adafruit OLED library. After coding the SD logging and autosleep logic I went through and rewrote the wntire firmware to make it more modular and structured for readability and debugging on the actual hardware.
+
+# MISC
+Aroudn 2 hours spent checking through everything, formatting the repo and submitting it.
