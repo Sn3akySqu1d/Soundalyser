@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BZ1,Buzzer_12x9.5RM7.6,1,Buzzer,
+SW1,RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,1,RotaryEncoder_Switch,
+U1,XIAO-RP2040-DIP,1,XIAO-RP2040-DIP,
+U2,GY-MAX4466,1,~,
+"U3, U4",Untitled,2,~,
