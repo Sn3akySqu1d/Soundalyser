@@ -17,7 +17,9 @@ Next, I researched different microphone, buzzer, oled and sd card modules and fo
 Next I routed the pcb, making sure that the traces aren't too close to avoid shorts. I decided on the arrangement of the components, putting the XIAO and SD card reader at the bottom of the board so they could both be easily accessed through a common spacing in the bottom of the case for convenient code upload and sd card access. I rerouted a few times and added some silkscreen for asthetics. I used a mixture of the hackpad tutorial and sensor documentation to setup the XIAO connections. I had to restart a few times as I made custom footprints based on the oled, sd card reader and mic datasheets as these weren't available in the default kicad library. I used the standard connector spacing (2.54mm) and 1mm holes (1.8mm pad) through which i'll solder the connectors. I used the component's datasheets to match up the pads on the footprint to the symbol pins, making sure they were the right way for the intended orientation of the component on the pcb. I used datasheets to make sure the footprint pad numbers matched the custom symbol pins and had to experiment with different footprints for each sensor
 ![alt text](Images/image-2.png)  
 Here is the custom footprint I made foe the sd card reader. I did research into differen tcommonly used throughole sizes and found that about 1mm is best as it is small enough for a tight mechanical fit to make mounting the component easily but loose enough to allow solder to easily flow around the pin.
-![alt text](Images/image-7.png)
+![alt text](Images/image-7.png)  
+then I used the kicad 3d viewer to check how the silkscreen looked and updated/moved around things a couple of times, including combinging headphones and waveform silkscreen to make a kind of logo (right). I also made sure that no silkscreen was coverign througholes just in case this caused any problems during the pcb manufacturing process (apparently it should be fine but didnt want to take any chances.)
+![alt text](image.png)
 
 # Day 2 (8/7) ~10 hours
 
