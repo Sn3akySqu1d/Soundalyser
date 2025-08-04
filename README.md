@@ -13,7 +13,7 @@ Display autosleeps and is woken by pushing in the rotary encoder.
 
 I made this project as an easy way to tell if the environment is too loud.
 
-![alt text](Images/image-11.png)
+<img width="2048" height="1789" alt="image" src="https://github.com/user-attachments/assets/0a331171-1192-4dca-9656-75a905231cc7" />
 ![alt text](Images/image-9.png)
 ![alt text](Images/image.png)
 ![alt text](Images/image-1.png)
