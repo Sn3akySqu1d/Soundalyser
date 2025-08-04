@@ -3,17 +3,18 @@ Soundalyser is a compact portable sound monitoring device that records, logs and
 
 Key Features:  
 5 screens navigatable using a rotary encoder:  
-Waveform, sound bar chart, mood screen that compares the current sound levels to recommended limits, a graph of sound levels over the past 24 hours and a stats screen that shows number of samples taken, minimum/maximum recorded sound levels and average sound level.  
+Waveform, sound bar chart, mood screen that compares the current average sound levels to recommended limits, a stats screen that shows number of samples taken, minimum/maximum recorded sound levels and average sound level and a screen that shows details about the SD card.
 
 Data is logged to a csv file on an SD card every 10 minuites so that it can be saved and analysed later. A sample is taken once a second.
 
-A buzzer beeps to alert the user if the sound level gets dangerously loud.  
+A buzzer beeps to alert the user if the sound level gets dangerously loud. (>900 average)
 
 Display autosleeps and is woken by pushing in the rotary encoder.  
 
 I made this project as an easy way to tell if the environment is too loud.
 
-
+![alt text](Images/image-11.png)
+![alt text](Images/image-9.png)
 ![alt text](Images/image.png)
 ![alt text](Images/image-1.png)
 ![alt text](Images/image-2.png)
@@ -21,7 +22,6 @@ I made this project as an easy way to tell if the environment is too loud.
 ![alt text](Images/image-6.png)
 ![alt text](Images/image-4.png)
 ![alt text](Images/image-5.png)
-![alt text](image.png)
 
 # BOM 
 | Component                                       | Link                                                                                                                                               | Price (USD) |
