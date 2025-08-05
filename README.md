@@ -15,6 +15,9 @@ I made this project as an easy way to tell if the environment is too loud.
 
 <img width="2048" height="1789" alt="image" src="https://github.com/user-attachments/assets/0a331171-1192-4dca-9656-75a905231cc7" />
 
+<img width="1953" height="2048" alt="image" src="https://github.com/user-attachments/assets/25d7c0e9-cba6-4764-ae5d-779f9d63b793" />
+
+
 ![alt text](Images/image-9.png)
 ![alt text](Images/image.png)
 ![alt text](Images/image-1.png)
