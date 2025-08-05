@@ -5,7 +5,8 @@ description: "Soundalyser is a portable sound monitoring device"
 created_at: "2025-07-07"
 ---
 
-Total time spent: ~18 hours
+Total design time spent: ~18 hours
+Total build time spent ~3 hours
 
 # Day 1 (7/7) ~6 hours
 Firstly I came up with the idea of the project, my idea was to make a small, portable noise detector.
@@ -34,7 +35,8 @@ The final step in the design was writing the firmware which took ages. This was 
 Around 2 hours spent checking through everything, formatting the repo and submitting it. Makign sure it conforms to the submission requirements and everything is organised into different files and that the BOM is optimised with the cheapest components. Expanded the journal.
 
 # Build-------------------------------------------------------------------------------------
-TFirslty after receiving the parts I prototyped it out on a breadboard and incrementely tested the different parts to make sure they were working properly. I also did some debugging of the firmware, mainly fixing the handling of the stored sound history, the rendering of the waveform and sound bar pages, and the encoder logic.
+4/8/25 ~3 hours  
+Firslty after receiving the parts I prototyped it out on a breadboard and incrementely tested the different parts to make sure they were working properly. I also did some debugging of the firmware, mainly fixing the handling of the stored sound history, the rendering of the waveform and sound bar pages, and the encoder logic.
 ![alt text](Images/image-8.png)  
 Next I soldered all of the components onto the pcb, i first soldered the headers to the components using a breadboard as i havent gotten that comfortable with soldering yet, and retested (everything worked the same as the breadbaord prototype) so i cut the metal pins on the back to make the pcb more flat so it would fit in the case properly.  
 ![alt text](Images/image-9.png)  
